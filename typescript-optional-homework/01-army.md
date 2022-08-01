@@ -2,13 +2,13 @@ Hozzunk létre egy egyszerű alkalmazást, amivel egy középkori hadsereg műk�
 
 # KATONAI EGYSÉGEK
 
-Minden egységnek vannak életerő pontjai (int) és támadási sebzése (int). Az egységeknek lehet páncéljuk.
+Minden egységnek vannak életerő pontjai (number) és támadási sebzése (number). Az egységeknek lehet páncéljuk.
 
 Minden katonai egység számára elérhetőek az alábbi metódusok:
 
-- `doDamage()`: adja vissza az egység sebzését int-ben.
+- `doDamage()`: adja vissza az egység sebzését number-ként.
 
-- `sufferDamage(int damage)`: a paraméterül kapott értéket levonja az egység életerő pontjaiból,<br>
+- `sufferDamage(damage: number)`: a paraméterül kapott értéket levonja az egység életerő pontjaiból,<br>
   ha az egység páncélozott, akkor csak az érték felét vonjuk le.
 
 ##### ARCHER
@@ -37,9 +37,9 @@ A pajzs az első kapott sebzés 100%-át felfogja, majd összetörik, tovább ne
 
 A hadseregnek az alábbi metódusai vannak:
 
-- `addUnit(MilitaryUnit militaryUnit)`, amivel egy katonai egységet tudunk hozzáadni a sereghez,
+- `addUnit(militaryUnit: MilitaryUnit)`, amivel egy katonai egységet tudunk hozzáadni a sereghez,
 
-- `damageAll(int damage)`, ami a sereg minden egységének életerejéből levonja a paraméterül kapott értéket, <br>
+- `damageAll(damage: number)`, ami a sereg minden egységének életerejéből levonja a paraméterül kapott értéket, <br>
   valamint eltávolítja a seregből azokat az egységeket, melyeknek így 25 pont alá csökkent az életerejük <br>
   (azaz harcképtelenek vagy halottak),
 

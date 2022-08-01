@@ -3,7 +3,7 @@ Hozzunk létre egy egyszerű alkalmazást, amivel egy fogadó tevékenységeit m
 
 # Emberek (People)
 
-Minden embernek van neve(String), súlya(int) és pénze(int).
+Minden embernek van neve(string), súlya(number) és pénze(number).
 Emellett minden ember számára elérhetőek az alábbi metódusok:
 
 - `status()`: adja vissza az ember adatait egy Stringben, pl "`Arthur, weight: 90, gold: 50.`"

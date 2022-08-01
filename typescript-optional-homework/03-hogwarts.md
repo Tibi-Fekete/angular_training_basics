@@ -37,7 +37,7 @@ A hugrabugos diákok... hát, azért ne feledkezzünk meg róluk sem!
 Hozd létre a Hogwarts osztályt, ami el tudja tárolni az iskolába járó diákokat.
 Az osztály az alábbi metódusokkal rendelkezik:
 
-- `addStudent(Student student)`: hozzáadja a paraméterben kapott diákot az iskolai nyilvántartáshoz
+- `addStudent(student: Student)`: hozzáadja a paraméterben kapott diákot az iskolai nyilvántartáshoz
 - `getImportantStudents()`: adja vissza a történet szempontjából fontos (azaz a griffendéles és a mardekáros) diákok neveit, ABC sorrendben
 - `getStudents()`: visszaadja a diákok listáját, a beiratkozásuk sorrendjében
 
