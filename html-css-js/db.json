@@ -11,6 +11,12 @@
       "email": "a@b.com",
       "password": "asdasdasd",
       "id": 2
+    },
+    {
+      "username": "László",
+      "email": "a@b.com",
+      "password": "asdasdasd",
+      "id": 3
     }
   ]
 }

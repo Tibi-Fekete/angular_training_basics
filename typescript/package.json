@@ -1,9 +1,10 @@
 {
-  "name": "02-bookshelf",
+  "name": "typescript",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node ./dist/basics.js"
+    "start": "npx tsc && node ./dist/main.js"
   },
   "keywords": [],
   "author": "",
